@@ -26,7 +26,7 @@ public class FakeStoreImp implements  ProductService{
         p.setDescription(productdto.getDescription());
 
         p.setImageUrl(productdto.getImage());
-
+        //interesting
         Category c = new Category();
         c.setName(productdto.getCategory());
 
